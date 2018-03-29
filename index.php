@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="utf-8">
 	<title>Formulario Básico de Registro</title>
@@ -8,15 +8,15 @@
 	<div id="content">
 		<form id="form">
 			<label>Nombre
-				<input class="" type="text" name="name" id="name" placeholder="NOMBRE">	
+				<input class="required" type="text" name="name" id="name" placeholder="NOMBRE">	
 			</label><br>
 			<label>E-mail
-				<input class=" " type="text" name="email" id="email" placeholder="E-MAIL">
+				<input class="required email" type="text" name="email" id="email" placeholder="E-MAIL">
 			</label><br>
 			<label>Empresa
-				<input class="" type="text" name="company" id="company" placeholder="EMPRESA">
+				<input class="required" type="text" name="company" id="company" placeholder="EMPRESA">
 			</label><br>
-			<input class="enviar" type="submit" name="submit" id="submit" value="ENVIAR">
+			<input class="enviar" type="submit" name="eviar" value="ENVIAR">
 		</form>
 	</div>
 	<div id="scripts">

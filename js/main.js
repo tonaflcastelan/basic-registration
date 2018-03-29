@@ -5,14 +5,13 @@
  *
  **/
  $(document).ready(function(){
- 	/*$('#form').validate();
- 	console.log("valido");*/
+
  	$('#form').validate({
- 		/*rules: {
+ 		rules: {
 			name: 'required',
 			email: {required: true, email: true},
 			company: 'required'
-		},*/
+		},
 		submitHandler: function(form) {
 			var form = $('#form').serialize();
 
