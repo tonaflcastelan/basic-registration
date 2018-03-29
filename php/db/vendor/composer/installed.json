@@ -1,0 +1,64 @@
+[
+    {
+        "name": "paragonie/easydb",
+        "version": "v2.6.0",
+        "version_normalized": "2.6.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/paragonie/easydb.git",
+            "reference": "f35bd24abb31fa5a42a18b82fc26122d7c2fe931"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/paragonie/easydb/zipball/f35bd24abb31fa5a42a18b82fc26122d7c2fe931",
+            "reference": "f35bd24abb31fa5a42a18b82fc26122d7c2fe931",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pdo": "*"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^5",
+            "spatie/7to5": "^1.0",
+            "squizlabs/php_codesniffer": "^2.7",
+            "vimeo/psalm": "^0|^1"
+        },
+        "time": "2018-03-10T19:23:49+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "ParagonIE\\EasyDB\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Scott Arciszewski",
+                "email": "scott@paragonie.com",
+                "homepage": "https://paragonie.com",
+                "role": "Developer"
+            },
+            {
+                "name": "Woody Gilk",
+                "homepage": "https://github.com/shadowhand",
+                "role": "Contributor"
+            },
+            {
+                "name": "SignpostMarv",
+                "homepage": "https://github.com/SignpostMarv",
+                "role": "Contributor"
+            }
+        ],
+        "description": "Easy-to-use database abstraction",
+        "keywords": [
+            "database",
+            "pdo",
+            "security",
+            "sql"
+        ]
+    }
+]
